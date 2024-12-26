@@ -1,0 +1,91 @@
+.photo-gallery {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 16px; /* Mengurangi jarak bawah */
+}
+
+.photo-gallery img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.wishes-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: #ffe5b4;
+  padding: 0 20px;
+  overflow-x: hidden;
+  margin-top: 8px; /* Menyesuaikan jarak atas */
+}
+
+.photo-gallery h3 {
+  color: #ff6f61; /* Warna tombol */
+  margin-bottom: 1px; /* Memberikan jarak bawah sedikit */
+}
+
+.wishes-form textarea {
+  width: 90%;
+  max-width: 600px;
+  height: 150px;
+  border: 2px solid #ff6f61;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  resize: none;
+}
+
+.wishes-form textarea:focus {
+  outline: none;
+  border-color: #ff3d3d;
+  background-color: #fff4e6;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .wishes-form textarea {
+    font-size: 14px;
+    height: 120px;
+  }
+
+  .submit-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wishes-form textarea {
+    font-size: 12px;
+    height: 100px;
+  }
+
+  .submit-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

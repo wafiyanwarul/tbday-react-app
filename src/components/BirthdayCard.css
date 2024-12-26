@@ -1,0 +1,54 @@
+.birthday-card {
+  padding: 10px;
+  background-color: #fff4e6;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 10;
+  text-align: center;
+}
+
+.card-content {
+  padding: 10px 0;
+  min-height: 150px;
+}
+
+.typing-effect {
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.next-button, .submit-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover, .submit-button:hover {
+  background-color: #ff4c3b;
+}
