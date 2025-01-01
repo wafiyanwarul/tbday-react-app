@@ -150,9 +150,24 @@ Endpoint: `GET /api/prayers`
 ### **Contributing**
 <ol>
 <li>Fork the repository.</li>
-<li>Create a feature branch: git checkout -b feature-name.</li>
-<li>Commit your changes: git commit -m "Add feature-name".</li>
-<li>Push to the branch: git push origin feature-name.</li>
+<li>Create a feature branch: 
+
+```bash
+git checkout -b feature-name
+```
+</li>
+<li>Commit your changes: 
+
+```bash
+git commit -m "Add feature-name"
+```
+</li>
+<li>Push to the branch: 
+
+```bash
+git push origin feature-name
+```
+</li>
 <li>Open a pull request.</li>
 </ol>
 
